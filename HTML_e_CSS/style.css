@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(253, 251, 251);
+}
+
+p, li {
+  font-size: 1em;
+  line-height: 1.4;
+  color: #464949;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+#cabecalho {
+  width: 100%;
+  height: 100px;
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+  background-color: green;
+}
+
+.cabecalho__nav {
+  max-width: 960px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.navegacao {
+  display: inline-block;
+}
+
+.navegacao ul {
+ margin-top: 35px;
+}
+
+.navegacao ul li {
+  padding-bottom: 10px;
+}
+
+.navegacao ul a {
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navegacao ul a:hover {
+  color: #c7c7c7;
+}
+
+#titulo {
+  top: 0px;
+  display: inline-block;
+  color: #fff;
+  margin: 0 150px 0 217px;
+  padding-top: 5px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.content__table {
+  float: right;
+  top: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -340px;
+}
+
+.content__table table {
+  width: 500px;
+}
+
+.content__table table td, th {
+    text-align: center;
+    color: #464949;
+    background: rgba(63, 200, 186, 0.1);
+    padding: 10px;
+}
+
+.artigo {
+  float: left;
+  margin: 20px 0;
+  max-width: 450px;
+}
+
+.artigo h2 {
+  margin-bottom: 20px;
+}
+
+.aside {
+  float: right;
+  margin-top: -259px;
+  max-width: 450px;
+  clear: both;
+}
+
+.aside h2 {
+  margin-bottom: 20px;
+}
+
+.lists {
+  display: inline-block;
+}
+
+.lists ol, ul {
+  display: inline-block;
+}
+
+.lists ul {
+  margin-left: 100px;
+}
+
+.lists li {
+  padding: 5px;
+}
+
+.lists ol li::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  background: rgb(206, 80, 206);
+}
+
+.lists ul li::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  background: rgb(206, 80, 206);
+}
+
+.last__list {
+  float: right;
+}
+
+.last__list {
+  border: 2px solid #ccc;
+  box-shadow: 4px 6px 0px 0px #c7c7c7;
+}
+
+.footer__bg {
+  margin-top: 20px;
+  background-color: green;
+}
+
+.footer__contato {
+  text-align: center;
+}
+
+.footer__contato li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.footer__contato img:hover {
+  filter: brightness(.6) saturate(2) hue-rotate(94deg);
+  transition: .1s ease-out;
+}
+
+.footer__contato img {
+  width: 30px;
+}
