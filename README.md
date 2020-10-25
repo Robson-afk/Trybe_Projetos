@@ -1,6 +1,7 @@
 <h1 align="center">🚀 Projetos Desenvolvidos na Trybe ⏳</h1>
 
 
+
 > ## Fundamentos do Desenvolvimento Web
 > ## **Bloco** - **Projeto:**
 
@@ -18,7 +19,7 @@
 - [ ] 9: _[Projeto - Carrinho de Compras]()_
 - [ ] 10: _[Projeto - Jest Assíncrono e Mocking]()_
 
----
+
 
 > ## Desenvolvimento Front-end
 > ## **Bloco** - **Projeto:**
@@ -33,7 +34,7 @@
 - [ ] 18: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 - [ ] 19: _[Projeto - App de Receitas]()_
 
----
+
 
 > ## Desenvolvimento Back-end
 > ## **Bloco** - **Projeto:**
@@ -54,7 +55,7 @@
 - [ ] 33: _[Projeto - Webchat]()_
 - [ ] 34: _[Projeto - Trybeer V2]()_
 
----
+
 
 > ## Ciência da Computação
 > ## **Bloco** - **Projeto:**
