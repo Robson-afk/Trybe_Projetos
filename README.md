@@ -1,4 +1,5 @@
 <h1 align="center">🚀 Projetos Desenvolvidos na Trybe ⏳</h1>
+---
 > ## Fundamentos do Desenvolvimento Web
 > ## **Bloco** - **Projeto:**
 
